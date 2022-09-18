@@ -23,8 +23,6 @@ We have data from 2019 of a service company.
     . In the employee base we have a list of all employees<br>
     . We want to calculate Qty_Employees_Closed_Service / Qty_Employees_Totals<br>
     . To calculate the number of employees who closed a service, use the service base and count how many employees there are. But remember, each employee can only be counted once.<br>
-    If you apply the .unique() method on a variable which is just 1 column of a dataframe, it will delete all duplicate values from that column.<br>
-    Ex: unique_columnA = dataframe['columnA'].unique() gives you as a response a list with all items in columnA appearing only once. All repeated values of columnA are excluded from the unicos_columnA variable<br>
 
 4. Calculate the total number of contracts that each area of the company has already closed
 
